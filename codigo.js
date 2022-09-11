@@ -86,7 +86,12 @@ let numero = undefined (todavia no esta definida) */
 
          // ver operaodres de javscript
 
-         
+         /*
+         let i = 20 
+         let i = 30
+         va a laznar un error porque no la podemos declar dos veces, pero si podemos cambiar su valor,
+         i = 30
+         */
        
 
        
