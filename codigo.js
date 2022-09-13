@@ -37,9 +37,9 @@ let numero = undefined (todavia no esta definida) */
 
 //alert("hola " + nombre)
 
-let numero = 10
+/*let numero = 10
     numero += 5
-    document.write(numero) 
+    document.write(numero) */
 
   /*  saludo = "hola pedro"
     pregunta ="¿Como estas?"

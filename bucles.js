@@ -1,4 +1,4 @@
- //let numero = 0 
+ let numero = 0 
 
 //if (numero < 10) {
 //     numero++;
@@ -6,13 +6,17 @@
  //    document.write(numero)
 //}
 
-//while (numero < 10) {
+while (numero < 10) {
 
- //    numero++;
+     numero++;
 
-//     document.write(numero + "<br>")
+     document.write(numero + "<br>")
 
-//}
+     if (numero == 4)
+
+      break
+
+}
 
 
 
