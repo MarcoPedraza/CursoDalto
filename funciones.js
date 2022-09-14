@@ -3,7 +3,7 @@
 // Sirve para llamar a un codigo que ya has escrito antes, y te ahorras todas las lineas de codigo
 
 
-/*function saludar(){
+/*function saludar( ){
 
 
     respuesta = prompt("hola lucas, como fue tu dia")
@@ -65,12 +65,23 @@ let resultado = suma (20,25)
 document.write(resultado);*/
 
 
-function saludar(nombre){
-    let frase = `Hola ${nombre}!`;
-    console.log(frase);
-}
+//function saludar(nombre){
+  //  let frase = `Hola ${nombre}!`;
+    //console.log(frase);
+//}
 
-saludar("pedro") // que no se olviden los parentesis y las comillas / Las variables solo existen dentro de la funcio
+//saludar("pedro") // que no se olviden los parentesis y las comillas / Las variables solo existen dentro de la funcio
 
 //OTRA FORMA MÁS
+
+
+
+
+const saludar = (nombre)=>{
+    let frase = `Hola ${nombre} ¿Como estas?`;
+    document.write(frase)
+}
+saludar("pedro")
+
+
 
