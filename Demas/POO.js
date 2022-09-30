@@ -15,14 +15,14 @@ class animal {
     verInfo(){
         document.write(this.info + "<br>")
     }
-    ladrar(){
-       if (this.especie == "Perro"){
-        document.write("Waw");
-       }
-       else {
-        document.write("No puede ladrar ya que es un" + this.especie)
-       }
-    }
+    // ladrar(){
+    //    if (this.especie == "Perro"){
+    //     document.write("Waw");
+    //    }
+    //    else {
+    //     document.write("No puede ladrar ya que es un" + this.especie)
+    //    }
+    // }
 }
 
 let perro = new animal("Perro","5","Rojo");
@@ -38,4 +38,8 @@ let pajaro = new animal("Pájaro","1","Verde");
 perro.ladrar()
 gato.ladrar()
 pajaro.ladrar()
+
+
+// Para que todos ladren
+
 
