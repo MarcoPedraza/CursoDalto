@@ -15,6 +15,14 @@ class animal {
     verInfo(){
         document.write(this.info + "<br>")
     }
+    ladrar(){
+       if (this.especie == "Perro"){
+        document.write("Waw");
+       }
+       else {
+        document.write("No puede ladrar ya que es un" + this.especie)
+       }
+    }
 }
 
 let perro = new animal("Perro","5","Rojo");
@@ -27,4 +35,7 @@ let pajaro = new animal("Pájaro","1","Verde");
 
 // document.write(`${perro.info} <br> ${gato.info} <br> ${pajaro.info}`) PARA AHORRARME ESTO, PUEDO CREAR UNA FUNCION QUE SEA VERINFO
 
-perro.verInfo()
+perro.ladrar()
+gato.ladrar()
+pajaro.ladrar()
+
